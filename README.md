@@ -1,47 +1,49 @@
 <div align="center">
 
-<img width="100%" alt="Şeyma İnan profil başlığı" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0B1026,45:342079,100:258CC7&amp;height=245&amp;section=header&amp;text=%C5%9Eeyma%20%C4%B0nan&amp;fontSize=64&amp;fontColor=FFFFFF&amp;fontAlignY=39&amp;animation=fadeIn&amp;desc=Bilgisayar%20M%C3%BChendisli%C4%9Fi&amp;descSize=19&amp;descAlignY=57" />
+<img width="100%" alt="Bilgisayar Mühendisliği" src="https://capsule-render.vercel.app/api?type=venom&amp;color=0:0B1020,55:25255D,100:087F8C&amp;height=200&amp;section=header&amp;text=Bilgisayar%20M%C3%BChendisli%C4%9Fi&amp;fontSize=38&amp;fontColor=EAFBFF&amp;stroke=65E4DA&amp;strokeWidth=0.7&amp;animation=fadeIn" />
+
+**Kocaeli Üniversitesi**
+
+<img width="540" alt="Algoritmalar, nesne yönelimli programlama ve simülasyon" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=19&amp;duration=2800&amp;pause=1100&amp;color=219B9A&amp;center=true&amp;vCenter=true&amp;width=540&amp;lines=%3E_+Algoritmalar;%3E_+Nesne+y%C3%B6nelimli+programlama;%3E_+Sim%C3%BClasyon" />
 
 <br>
 
-<img width="570" alt="C, Python ve Java | Algoritmalar | Gömülü Yazılım" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=3000&amp;pause=1000&amp;color=8F83F4&amp;center=true&amp;vCenter=true&amp;width=570&amp;height=48&amp;lines=C+%2F+Python+%2F+Java;Algoritmalar+ve+problem+%C3%A7%C3%B6zme;G%C3%B6m%C3%BCl%C3%BC+yaz%C4%B1l%C4%B1m" />
-
-<br>
-
-**Kocaeli Üniversitesi · Bilgisayar Mühendisliği**
-
-<br>
+<img alt="C" src="https://img.shields.io/badge/C-253B80?style=for-the-badge&amp;logo=c&amp;logoColor=white" />
+<img alt="Python" src="https://img.shields.io/badge/Python-17566D?style=for-the-badge&amp;logo=python&amp;logoColor=white" />
+<img alt="Java" src="https://img.shields.io/badge/Java-593A87?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" />
 
 </div>
 
-<table width="100%">
+## Projeler
+
+<table>
   <tr>
-    <td width="54%" valign="top">
-      <h3>👋 Merhaba, ben Şeyma</h3>
-      <p>Bilgisayar mühendisliği okuyorum. C ile algoritmalar üzerine çalışıyor, Python ve Java ile de pratik yapıyorum.</p>
-      <p>Bir konuyu öğrenirken en sevdiğim kısım, kendi kodumu yazıp nasıl çalıştığını adım adım görmek.</p>
+    <td width="50%" valign="top">
+      <img alt="C · Simülasyon" src="https://img.shields.io/badge/C-S%C4%B0M%C3%9CLASYON-087F8C?style=flat-square&amp;labelColor=17223A" />
+      <h3>Teknik Destek Simülasyonu</h3>
+      <p>Dosyadan okunan teknik destek görevlerini dört teknisyene dağıtan bir C programı.</p>
+      <p><code>Shortest Job</code> <code>Priority</code> <code>Round Robin</code></p>
     </td>
-    <td width="46%" valign="top">
-      <h3>⌨️ Kullandığım diller</h3>
-      <p>
-        <img src="https://img.shields.io/badge/C-3346A8?style=for-the-badge&amp;logo=c&amp;logoColor=white" alt="C" />
-        <img src="https://img.shields.io/badge/Python-17658A?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Java-603CA4?style=for-the-badge&amp;logo=openjdk&amp;logoColor=white" alt="Java" />
-      </p>
-      <h3>🔍 İlgi alanlarım</h3>
-      <p><code>Algoritmalar</code> · <code>Gömülü yazılım</code></p>
+    <td width="50%" valign="top">
+      <img alt="Java · Nesne yönelimli programlama" src="https://img.shields.io/badge/JAVA-NESNE%20Y%C3%96NEL%C4%B0ML%C4%B0-7452A4?style=flat-square&amp;labelColor=17223A" />
+      <h3>Robot Uygulaması</h3>
+      <p>Robotu ve davranışlarını Java sınıflarıyla modellediğim bir çalışma.</p>
+      <p><code>Sınıflar</code> <code>Nesneler</code> <code>Metotlar</code></p>
     </td>
   </tr>
 </table>
 
-<br>
+### Simülasyon nasıl çalışıyor?
 
-<div align="center">
-
-<a href="https://github.com/seymainann?tab=repositories">
-  <img src="https://img.shields.io/badge/Depolar%C4%B1m%C4%B1%20g%C3%B6r-483497?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Depolarımı gör" />
-</a>
-
-</div>
-
-<img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0B1026,45:342079,100:258CC7&amp;height=95&amp;section=footer" />
+```mermaid
+flowchart LR
+    A["gorevler.txt"] --> B["Görevleri doğrula"]
+    B --> C["Algoritmayla sırala"]
+    C --> D["Teknisyene ata"]
+    D --> E["Sonuçları raporla"]
+    classDef input fill:#17223A,stroke:#6183C9,color:#FFFFFF
+    classDef process fill:#26305B,stroke:#9B87DB,color:#FFFFFF
+    classDef result fill:#075F63,stroke:#5DE3D5,color:#FFFFFF
+    class A input
+    class B,C,D process
+    class E result
